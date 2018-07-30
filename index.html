@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-type" content="text/html" charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1,maximum-scale=1,
+     minimum-scale=1, width=device-width">
+    
+    <title>Tower Defence</title>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="gamecontainer">
+            <div id="gamestartscreen" class="gamelayer">
+                <span  onclick = "game.start();">Start</span>
+            </div>
+            <div id="loadingscreen" class="gamelayer"></div>
+            <div id="gameinterface" class="gamelayer">
+                <canvas width="800" height="600" id="gamecanvas"></canvas>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
